@@ -1,0 +1,62 @@
+body{
+	background-color: lightblue;
+}
+
+div {
+	background-color: white;
+	margin: 10px;
+	width: 25%;
+	border: solid 2px gray;
+	padding: 10px;
+}
+
+h1,
+h3,
+span{
+	font-weight: bold;
+	text-align: center;
+}
+
+h1{
+	font-size: 30px;
+	font-family: 'Syncopate', sans-serif;
+}
+
+#randomNum {
+	font-size: 30px;
+	/*padding-top: 10px;*/
+}
+
+.crystals {
+	background-color: white;
+	width: 28%;
+}
+
+.header,
+.instructions {
+	width: 50%;
+}
+
+
+.numberToMatch, 
+.winLosses {
+	float: left;
+	width: 20%;
+	height: 60px;
+	font-size: 30px;
+}
+
+.playerTotal {
+	width: 20%;
+	height: 60px;
+	font-size: 30px;
+}
+
+.crystals {
+	clear: both;
+}
+
+.crystalImage {
+	height: 80px;
+	margin: 10px;
+}
